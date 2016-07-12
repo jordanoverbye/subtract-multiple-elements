@@ -1,0 +1,13 @@
+var onRun = function (context) {
+   var doc = context.document;
+  var width = doc.askForUserInput_initialValue("How many pixels?", "");
+  var selection = context.selection;
+  var selectionLoop = selection.objectEnumerator()
+		while (item = selectionLoop.nextObject()) {
+			var layer = item;
+    	var frame = [layer frame];
+    	var w = [frame width];
+      var w = w - width;
+      [frame setWidth:w];
+    }
+}

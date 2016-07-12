@@ -1,0 +1,14 @@
+{
+  "name": "Subtract multiple elements",
+  "description": "Take number off elements",
+  "author": "Jordan Overbye",
+  "homepage": "http://jordanoverbye.com",
+  "version": 1.0,
+  "compatibleVersion": 3.4,
+  "bundleVersion": 1,
+  "commands": [{
+    "name": "Subtract multiple elements",
+    "shortcut": "cmd ctrl -",
+    "script": "subtract.cocoascript",
+  }]
+}
